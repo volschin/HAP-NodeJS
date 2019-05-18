@@ -29,6 +29,12 @@
     "type": "git",
     "url": "https://github.com/KhaosT/HAP-NodeJS.git"
   },
+  "greenkeeper": {
+    "ignore": [
+      "node-persist",
+      "fast-srp-hap"
+    ]
+  },
   "author": "Khaos Tian <khaos.tian@gmail.com> (http://tz.is/)",
   "license": "Apache-2.0",
   "bugs": {
