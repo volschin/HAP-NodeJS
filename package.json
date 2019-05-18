@@ -18,10 +18,11 @@
     "decimal.js": "^7.2.3"
   },
   "devDependencies": {
+    "mocha": "^4.0.1",
     "simple-plist": "0.0.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node BridgedCore.js"
   },
   "repository": {
