@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "6"
+  - "8"
+  - "9"
+  - "10"
+  - "11"
+  - "12"
+os:
+  - linux
+  - osx
+
+before_install:
+  - if [ $TRAVIS_OS_NAME = linux ]; then
+      sudo apt-get install -y libnss-mdns libavahi-compat-libdnssd-dev;
+    fi
+  - npm install -g typescript
+  - npm install -g mocha
+  - node --version
+  - npm --version
+  - gcc --version
+  - g++ --version
+  - yarn --version
+
+cache:
+  yarn: true
+  directories:
+    - "node_modules"
