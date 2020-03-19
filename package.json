@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "mocha": "^6.1.4",
-    "simple-plist": "0.0.4"
+    "simple-plist": "1.1.0"
   },
   "scripts": {
     "test": "mocha",
