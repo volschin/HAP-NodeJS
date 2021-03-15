@@ -18,7 +18,7 @@
     "decimal.js": "^10.2.0"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^8.3.2",
     "simple-plist": "1.1.0"
   },
   "scripts": {
